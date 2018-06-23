@@ -31,7 +31,7 @@ void setup() {
   rest.variable("id", &id);
 
   rest.set_id("2");
-  rest.set_name("Station1");
+  rest.set_name("Station2");
 
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
