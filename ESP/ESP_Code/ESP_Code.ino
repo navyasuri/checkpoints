@@ -60,7 +60,7 @@ void loop() {
   {
     return;
   }
-
+Serial.println(" ");
   id = "";
   byte letter;
   for (byte i = 0; i < mfrc522.uid.size; i++)
