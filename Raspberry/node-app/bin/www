@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('checkpoints:server');
+var debug = require('debug')('node-app:server');
 var http = require('http');
 
 /**
